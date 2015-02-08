@@ -147,47 +147,6 @@ public class Robot extends IterativeRobot {
 		
 	}
 	public void autonomousPeriodic() {
-		auto1=true;
-		auto2=true;
-		auto3=true;
-		
-		auto1 = SmartDashboard.getBoolean("DB/Button 1");
-		if (auto1)
-		{
-		 SmartDashboard.putString("DB/String 0", "auto***1");
-		 SmartDashboard.getString("DB/String 0", "myDefaultData");
-		 //Insert Auto1 Code here
-		 
-		} 
-		else{
-			auto1 = false;
-		}
-		
-	
-		auto2 = SmartDashboard.getBoolean("DB/Button 2");
-		if (auto2)
-		{
-		 SmartDashboard.putString("DB/String 0", "auto***2");
-		 SmartDashboard.getString("DB/String 0", "myDefaultData");
-		 //Insert Auto2 Code here
-		}
-		else{
-			auto2 = false;
-		}
-		
-		
-		
-		auto3 = SmartDashboard.getBoolean("DB/Button 3");
-		if (auto3)
-		{
-		 SmartDashboard.putString("DB/String 0", "auto***3");
-		 SmartDashboard.getString("DB/String 0", "myDefaultData");
-		//Insert Auto2 Code here
-		}
-		else{
-			auto3 = false;
-		}
-		
 		
 	}
 
